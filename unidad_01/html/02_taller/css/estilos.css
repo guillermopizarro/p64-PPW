@@ -1,0 +1,17 @@
+h1 {
+    font-size: 40px;
+    font-style:  italic;
+    text-shadow: 8px 8px 5px rgba(0, 0, 0, 0.5);
+}
+
+a {
+
+}
+
+.caja-enlace {
+    display: block;
+    width: 200px;
+    border: 1px solid lightblue;
+    padding: 5px;
+    margin: 5px;
+}
