@@ -1,0 +1,11 @@
+p {
+    font-size: 18px;
+    background-color: lightskyblue;
+}
+
+.posicion-relativo {
+    position: relative;
+    top:20px;
+    left: 20px;
+    background-color: blue;
+}
