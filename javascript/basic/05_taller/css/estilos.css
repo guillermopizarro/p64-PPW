@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+}
+
+#cajita {
+    border: 1px solid black;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: auto;
+    padding: 10px;
+    background-color: lightsalmon;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.5);
+}
