@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 1px solid lightgray;
+}
+
+.container-item {
+    width: 200px;
+}
