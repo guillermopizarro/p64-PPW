@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1px solid lightgray;
+}
+
+.container-item {
+    width: 200px;
+}
