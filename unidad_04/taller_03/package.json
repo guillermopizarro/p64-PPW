@@ -1,0 +1,14 @@
+{
+  "name": "taller_03",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guillermo Pizarro",
+  "license": "GPL-3.0",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
