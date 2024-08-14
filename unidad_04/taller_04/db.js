@@ -3,11 +3,7 @@ const db = require('mongoose')
 db.Promise = global.Promise
 
 async function conectar( url ) {
-    await db.connect( url, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-        dbname: 'ups'
-    } )
+    await db.connect( url, { dbname: 'miapp' } )
     .then (() => console.log('[db] - conexion exitosa.') )
     .catch( (error) => console.error( `[db] - ${error}` ) )
 }
