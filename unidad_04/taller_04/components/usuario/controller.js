@@ -1,7 +1,7 @@
 const storage = require('./storage')
 
 function insertar_usuario( dato ) {
-    return Promise( (resolve, reject) => {
+    return new Promise( (resolve, reject) => {
         if (!dato) {
             reject( 'No existen datos' )
         } else {
@@ -11,7 +11,7 @@ function insertar_usuario( dato ) {
 }
 
 function obtener_usuario( dato ) {
-    return Promise( (resolve, reject) => {
+    return new Promise( (resolve, reject) => {
         if (!dato) {
             reject( 'No existen datos' )
         } else {

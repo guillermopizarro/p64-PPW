@@ -16,7 +16,8 @@ const usuario_schema = new schema({
     clave: req_string,
     nombre: req_string,
     apellido: req_string,
-    fecha_registro: req_date,
+    fecha_nacimiento: req_date,
+    fecha_registro: Date,
     fecha_actualizacion: Date
 }, {
     timestamps: { createdAt: 'fecha_creacion', updatedAt: 'fecha_actualizacion' }
