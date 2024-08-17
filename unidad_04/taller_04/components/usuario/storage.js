@@ -16,7 +16,25 @@ async function obtener_usuario(dato) {
      return resultado
 }
 
+async function actualizar_usuario(dato) {
+    const usuario = await model.findOne( {usuario:dato.usuario} )
+    usuario.nombre = dato.nombre
+    usuario.apellido = dato.apellido
+    usuario.clave = dato.clave
+    usuario.fecha_nacimiento = dato.fecha_nacimiento
+
+    const resultado = usuario.save()
+    return resultado
+}
+
+async function eliminar_usuario(dato) {
+    const resultado = await model.deleteOne( {usuario: dato.usuario} )
+    return resultado
+}
+
 module.exports = {
     insertar:insertar_usuario,
     obtener:obtener_usuario,
+    actualizar:actualizar_usuario,
+    eliminar:eliminar_usuario
 }
