@@ -32,7 +32,6 @@ function actualizar_usuario(dato) {
                 clave: dato.clave,
                 fecha_nacimiento: dato.fecha_nacimiento
             }
-            console.log(usuario)
             resolve( storage.actualizar( usuario ) )
         }
     } ) 
